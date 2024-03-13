@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ladies Shoppy Registration</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h2>Register for Ladies Shoppy</h2>
+<form action="#" method="POST">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required>
+<label for="contact">Contact Number:</label>
+<input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required>
+<button type="submit">Register</button>
+</form>
+</div>
+</body>
+</html>
